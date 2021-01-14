@@ -22,8 +22,6 @@ class CreatePost extends Component
             'content' => $this->content,
         ]);
 
-        echo "Sukses";
-
         $this->content = "";
         $this->emit('postCreated');
     }

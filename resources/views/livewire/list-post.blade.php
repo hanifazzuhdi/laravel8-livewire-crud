@@ -17,6 +17,7 @@
             class="bg-red-500 hover:bg-red-700 text-white rounded px-2 ml-1 my-3">
             <span class="text-sm"> Delete </span>
         </button>
+
         <hr>
 
         <div class="p-3 mt-2">

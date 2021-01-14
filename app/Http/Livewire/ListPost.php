@@ -21,11 +21,11 @@ class ListPost extends Component
         ]);
     }
 
-    public function showUpdateForm($postId)
+    public function showUpdateForm($id)
     {
-        $post = Post::find($postId);
+        $post = Post::find($id);
         $this->content = $post->content;
-        $this->postStateId = $postId;
+        $this->postStateId = $id;
     }
 
     public function updateContent($id)

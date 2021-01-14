@@ -11,6 +11,7 @@
             </div>
 
             <h3 class="text-xl font-bold mt-4">Postingan</h3>
+            <a href="{{route('post.export')}}">Download Post Excel</a>
 
             <livewire:list-post />
         </div>
